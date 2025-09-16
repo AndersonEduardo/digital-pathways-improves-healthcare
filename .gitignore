@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pkl
+*.egg-info/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Arquivos temporários
+*.swp
+*.swo
+*~
+
+# Dados e outputs
+outputs/
+*.xlsx
+
+# Ambiente virtual
+.venv/
+venv/
+ENV/
+
+# Logs
+*.log
+
+# Outros
+*.bak
+*.tmp
+
+# Ignore arquivos de configuração pessoais
+*.env
+.env.*
