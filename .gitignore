@@ -21,9 +21,9 @@ __pycache__/
 *.swo
 *~
 
-# Dados e outputs
-outputs/
-*.xlsx
+# # Dados e outputs
+# outputs/
+# *.xlsx
 
 # Ambiente virtual
 .venv/

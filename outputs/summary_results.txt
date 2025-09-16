@@ -1,0 +1,41 @@
+=== Replication summary ===
+
+Unique encounters per year: {2023: 65, 2024: 93}
+
+Per-encounter adherence (Mann–Whitney p-value): 0.027
+
+Medians (2023→2024): 1.0 → 3.0  IQR 2023=(0.0, 5.0) | IQR 2024=(0.0, 9.0)
+
+Entropy/Perplexity:
+  2023: H=6.148 bits, perplexity=70.9 (distinct=117, total=347)
+  2024: H=5.848 bits, perplexity=57.6 (distinct=120, total=787)
+
+
+Top-10 by absolute growth (Δ absoluto):
+
+                     exam_name_upper  is_protocolo  Δ absoluto  2023  2024
+     TSH - HORMONIO TIREOESTIMULANTE          True          27    12    39
+             HEMOGRAMA COM PLAQUETAS          True          25    22    47
+ HEMOGLOBINA GLICADA - SANGUE (EDTA)          True          23    10    33
+                    GLICOSE EM JEJUM          True          23    20    43
+   COLESTEROL TOTAL E FRACOES - SORO          True          19    19    38
+                          CREATININA          True          19    10    29
+                       TRIGLICERIDES          True          18    16    34
+TGO-AST - ASPARTATO AMINOTRANSFERASE          True          18     7    25
+  TGP-ALT - ALANINA AMINOTRANSFERASE          True          18     7    25
+                  SOROLOGIA PARA HCV         False          17     1    18
+
+
+Top-10 by percentage growth (Δ %):
+
+                                   exam_name_upper  is_protocolo         Δ %  2023  2024
+                                SOROLOGIA PARA HCV         False 1700.000000     1    18
+                             HEPATITE B - ANTI HBS         False 1500.000000     1    16
+                        ECOCARDIOGRAMA COM DOPPLER         False  700.000000     1     8
+SANGUE OCULTO, PESQUISA DE - FEZES SEM CONSERVANTE         False  700.000000     1     8
+                1,25 DIHIDROXI VITAMINA D, DOSAGEM         False  600.000000     0     6
+          COLONOSCOPIA COM PREPARO DOMIC COM ANEST         False  600.000000     0     6
+           ULTRASSONOGRAFIA PELVICO + TRANSVAGINAL         False  600.000000     2    14
+         PCR TEMPO REAL CORONAVIRUS COVID19 - SWAB         False  600.000000     1     7
+                                              VDRL         False  466.666667     3    17
+                                        PROLACTINA         False  400.000000     0     4
