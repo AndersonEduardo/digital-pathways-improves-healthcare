@@ -40,3 +40,4 @@ ENV/
 # Ignore arquivos de configuração pessoais
 *.env
 .env.*
+mailmap.txt
